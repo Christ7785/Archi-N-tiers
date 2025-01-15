@@ -19,7 +19,7 @@ class Game:
     def add_player(self, name):
         """Ajoute un joueur à la liste des joueurs."""
         self.__players.append(name)
-
+ 
     def assign_roles(self):
         """Assigne les rôles de manière aléatoire."""
         if len(self.__players) < 4:
